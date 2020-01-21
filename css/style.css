@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Cinzel|Cinzel+Decorative');
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header logo"
+    "nav article article"
+    "footer footer footer";
+  grid-template-rows: 300px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  height: 100vh;
+  margin: 0;
+  font-size: 0.80em;
+  font-family: Montserrat;
+  text-align: justify;
+  line-height: 2;
+  }  
+  
+header, footer {
+  padding: 1.2em;
+  }
+ 
+#pageLogo {
+	grid-area: logo;
+	display: inline-grid;
+	justify-items: center;
+	align-items: center;
+	background-color: #412518
+}
+
+#pageHeader {
+  grid-area: header;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url(beans.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #412518;
+  }
+  
+#pageFooter {
+  grid-area: footer;
+  display: inline-grid;
+  justify-items: right;
+  align-items: center;
+  background-image: url(beans.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #61545b;
+  color: #fff;
+  }
+  
+#mainArticle { 
+  grid-area: article;    
+  display: inline-grid;
+  justify-items: justify;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  }
+  
+#mainNav { 
+  grid-area: nav; 
+  background-color: #412518;
+  text-align: center;
+  }
+
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+	  "header"
+	  "nav"
+      "article"
+      "footer";
+    grid-template-rows: 150px 1fr 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+ 
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #412518;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #fff;
+}
+
+li a:hover {
+	background-color: #5D4235;
+}
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin: 3em;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font: 1.6em Cinzel Decorative;
+	color: #fff;
+}
+
+li a:hover {
+	background-color: #5D4235;
+}
+
+h1 {
+	margin: 10px 0 !important;
+	text-align: center;
+	font: 3.5em Cinzel Decorative;
+	color: #412518;
+	padding-left: 10px;
+	border-bottom: 3px solid #B5D9D9;
+}
+
+h2 {
+	margin: 0 !important;
+	background: #5D4235;
+	padding: 20px;
+	border-left: 15px solid #B5D9D9;
+	font: 1.8em Cinzel;
+	color: #fff;
+}
+
+#title {
+	font: 6em Cinzel Decorative;
+	font-weight: bold;
+	color: #fff;
+}
