@@ -27,7 +27,8 @@ header, footer {
 	display: inline-grid;
 	justify-items: center;
 	align-items: center;
-	background-color: #412518
+	background-color: #fff;
+	border-bottom: 10px solid #1E96A6;
 }
 
 #pageHeader {
@@ -35,12 +36,13 @@ header, footer {
   display: inline-grid;
   justify-items: center;
   align-items: center;
-  background-image: url(beans.jpg);
+  background-image: url(../images/beans.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #412518;
+  border-bottom: 10px solid #1E96A6;
   }
   
 #pageFooter {
@@ -48,13 +50,14 @@ header, footer {
   display: inline-grid;
   justify-items: right;
   align-items: center;
-  background-image: url(beans.jpg);
+  background-image: url(../images/beans.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #61545b;
   color: #fff;
+  border-top: 10px solid #1E96A6;
   }
   
 #mainArticle { 
