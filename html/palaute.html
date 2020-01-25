@@ -1,3 +1,65 @@
-<html>
-    Kerro meille palautteesi!
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Palaute</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+	
+	<body>
+		<header id="pageHeader">
+			<span id="title">App Café</span>
+		</header>
+		<div id="pageLogo">
+			<img src="images/logo_svg.svg" alt="Logo" style="width:50%;">
+		</div>
+		<article id="mainArticle">
+		
+			<h1>Palaute</h1>
+			
+			<p>Jäikö kahvipapu hampaankoloon? Jätä meille palautetta! </p>
+
+			<form action="palaute.php" method="POST">
+
+	
+			<legend>Palaute</legend>
+			<textarea rows="7" name="tekstialue">Kirjoita palautteesi tähän</textarea>
+			<br>
+				
+			<legend>Päivämäärä, jolloin vierailit</legend>
+			<input type="date" name="pvm" />
+			<br>
+			
+			<legend>Valitse kahvila, jossa vierailit</legend>
+			<select name="kahvila">
+			<option>Kupittaa</option>
+			<option> </option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" value="Lähetä!" />
+		
+			</form>
+			
+			<p>Haluaisitko ottaa yhteyttä suoraan henkilökuntaan? Yhteystiedot löydät <a href="yhteystiedot.html">täältä.</a></p>
+		
+		</article>
+		<nav id="mainNav">
+			<ul>
+				<li><a href="#home">Etusivu</a></li>
+				<li><a href="#news">Menu</a></li>
+				<li><a href="#contact">Meistä</a></li>
+				<li><a href="#about">Yhteys</a></li>
+				<li><a href="#feedback">Palaute</a></li>
+			</ul>
+		</nav>
+		<footer id="pageFooter">
+		</footer>
+	
+
+</body>
+	
 </html>
