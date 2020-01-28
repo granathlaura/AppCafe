@@ -27,7 +27,7 @@ header, footer {
 	display: inline-grid;
 	justify-items: center;
 	align-items: center;
-	background-color: #fff;
+	background-color: rgb(251, 251, 251);
 	border-bottom: 10px solid #1E96A6;
 }
 
@@ -66,6 +66,7 @@ header, footer {
   justify-items: justify;
   align-items: center;
   padding: 0.5em 1.5em;
+  overflow: auto;
   }
   
 #mainNav { 
@@ -73,6 +74,8 @@ header, footer {
   background-color: #412518;
   text-align: center;
   }
+
+/* Media alkaa */
 
 @media all and (max-width: 575px) {
   body { 
@@ -93,7 +96,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #412518;
+  background-color: #412518;
 }
 
 li {
@@ -114,12 +117,14 @@ li a:hover {
 
 }
 
+/* Media loppuu */
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	margin: 3em;
+  margin: 3em;
 }
 
 li a {
@@ -138,7 +143,7 @@ li a:hover {
 h1 {
 	margin: 10px 0 !important;
 	text-align: center;
-	font: 3.5em Cinzel Decorative;
+	font: 3em Cinzel Decorative;
 	color: #412518;
 	padding-left: 10px;
 	border-bottom: 3px solid #B5D9D9;
@@ -147,9 +152,9 @@ h1 {
 h2 {
 	margin: 0 !important;
 	background: #5D4235;
-	padding: 20px;
+	padding: 15px;
 	border-left: 15px solid #B5D9D9;
-	font: 1.8em Cinzel;
+	font: 1.5em Cinzel;
 	color: #fff;
 }
 
