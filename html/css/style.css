@@ -163,3 +163,9 @@ h2 {
 	font-weight: bold;
 	color: #fff;
 }
+
+.hintalappu {
+  background: #1E96A6;
+  color: #fff;
+  padding: 5px 8px;
+}
