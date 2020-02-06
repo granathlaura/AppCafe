@@ -3,94 +3,88 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>App Café</title>
+		<meta name="description" content="AppCafé on Turun Kupittaalla sijaitseva uuden aikakauden kahvila. Haluamme tarjota arjen kiireen ja harmauden keskelle palan luksusta. Meiltä saat kahvit, patongit ja leivokset nopeasti, laadusta tinkimättä.">
+		<meta name="keywords" content="Turku, kahvila, cafe, Kupittaa">
+		<title>AppCafé</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<header id="pageHeader">
-			<span id="title">App Café</span>
-		</header>
-		<div id="pageLogo">
-			<img src="images/logo_svg.svg" alt="Logo" style="width:50%;">
-		</div>
-		<article id="mainArticle">
-            <h1>Menu</h1> <br>
-            <div style="float:left;"><img src="images/coffee.png" alt="coffee"><img src="images/salad.jpg" alt="salad"><img src="images/puusti.jpg" alt="puusti"><img src="images/bagel.jpg" alt="bagel"></div>
-		
-            <p><b>KUUMAT JUOMAT</b>
-               <table>
-                <tr><th>Pieni kahvi</th> <th><b>1,50€</b> </th></tr>
-                <tr><th>Iso kahvi</th> <th><b>2,00€</b> </th></tr>
-                <tr><th>Tee </th>      <th> <b>1,20€</b> </th></tr>
-                <tr><th>Cafe latte </th> <th> <b>3,00€</b> </th></tr>
-                <tr><th>Espresso </th> <th>    <b>2,00€</b></th></tr>
-                <tr><th>Cappucino </th> <th> <b>2,50€</b></th></tr>
-                <tr><th>Caramel latte </th> <th> <b>3,50€</b></th></tr>
-                <tr><th>Chai latte </th> <th> <b>3,50€</b></th></tr>
-                <tr><th>Kaakao </th> <th> <b>2,50€</b> <br></th></tr>
-                  </table>
-                <br>
-
-                <b>KYLMÄT JUOMAT</b>
-                <table>
-                <tr><th>Jäätee</th> <th>  <b>2,00€</b> </th></tr>
-                <tr><th>Smoothie <i>(L, G)</i></th><th><b>3,00€</b> </th></tr>
-                <tr><th>Kivennäisvesi</th> <th><b>2,00€</b> </th></tr>
-                <tr><th>Coca cola</th> <th><b>2,50€</b> </th></tr>
-                <tr><th>Fanta </th> <th> <b>2,50€</b> </th></tr>
-                <tr><th>Sprite </th> <th><b>2,50€</b> </th></tr>
-            </table>
-                <br>
-
-                <b>SUOLAISTA</b>
-                <table>
-                <tr><th>Bagel <i>*G</i> </th><th><b>4,00€</b></th></tr>
-                <tr><th><i>- Kananmuna-avocado (M), Creamcheese (L)</i></th></tr>
-                <tr><th>Täytetty croissant</th><th><b>3,50€</b></th></tr>
-                <tr><th><i>- Kinkku-feta (L), Tomaatti-mozzarella (L)</i></th></tr>
-                <tr><th>Kana-mozzarella focaccia <i>(L)</i></th><th><b>4,00€</b></th></tr>
-                <tr><th>Kana-caesar wrap <i>(L)</i></th><th> <b>3,00€</b></th></tr>
-                <tr><th>Mysli-mustikkajogurtti <i>(G, L)</i></th><th><b>2,50€</b></th></tr>
-                <tr><th>Tuorepuuro <i>*G (L)</i></th><th><b>3,00€</b></th></tr>
-                <tr><th>Falafelsalaatti <i>(G, M)</i></th><th> <b>4,50€</b></th></tr>
-                <tr><th>Täytetty sämpylä <i>*G</i></th><th> <b>2,50€</b></th></tr>
-                </table>
-                <br>
-
-                <b>MAKEAA</b>
-                <table>
-                <tr><th>Mudcake <i>(L)</i></th><th> <b>3,50€</b></th></tr>
-                <tr><th>Juustokakku <i>(L)</i></th> <th> <b>3,50€</b></th></tr>
-                <tr><th>Korvapuusti <i>(L)</i></th><th> <b>2,00€</b></th></tr>
-                <tr><th>Muffini <i>(L)</i></th><th> <b>2,00€</b></th></tr>
-                <tr><th>Mustikkapiirakka <i>(L)</i></th><th> <b>3,00€</b></th></tr>
-                <tr><th>Omenapiirakka <i>*G (L)</i></th><th> <b>3,00€</b></th></tr>
-            </table>
-                
-            <br><br>
-                L = laktoositon <br>
-                G = gluteeniton <br>
-                M = maidoton <br>
-                *G = tuote saatavissa myös gluteenittomana
-                
-
-            </p>
-		
-			
-
-			
-		</article>
-		<nav id="mainNav">
+		<nav class="col-1">
+			<img src="images/appcafe2.png" alt="Logo" style="width:50%;padding:2em 0;"><br>
 			<ul>
 				<li><a href="index.html">Etusivu</a></li>
-				<li><a href="menu.html">Menu</a></li>
+				<li><a href="menu.html" class="active">Menu</a></li>
 				<li><a href="about.html">Meistä</a></li>
 				<li><a href="yhteystiedot.html">Yhteys</a></li>
 				<li><a href="palaute.html">Palaute</a></li>
 				<li><a href="index_english.html">In English</a></li>
 			</ul>
 		</nav>
-		<footer id="pageFooter">
-		</footer>
+		<div class="col-2">
+		<header>
+			<span class="title">AppCafé</span>
+		</header>
+		<main class="content">
+			<article>
+				<h1>Menu</h1> <br>
+			<div style="text-align:center;">
+			<table style="width:100%;margin-bottom:20px;">
+				<tbody>
+				<tr>
+					<td><img src="images/coffee.png" alt="coffee"></td>
+					<td><img src="images/salad.jpg" alt="salad"></td>
+					<td><img src="images/puusti.jpg" alt="puusti"></td>
+					<td><img src="images/bagel.jpg" alt="bagel"></td>
+				</tr>
+				</tbody>
+			</table>
+			
+            <table style="width:100%;padding:10px;margin-bottom:20px;">
+				<tbody>
+				<tr>
+					<td style="font-weight: bold;">Pieni kahvi</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">1,50 €</span></td>
+					<td style="font-weight: bold;">Bagel (*G)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">4,00 €</span></td>
+					<td style="font-weight: bold;">Korvapuusti (L)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">2,00 €</span></td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold;">Iso kahvi</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">2,00 €</span></td>
+					<td style="font-weight: bold;">Croissant</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">2,00 €</span></td>
+					<td style="font-weight: bold;">Juustokakku (L)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">3,50 €</span></td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold;">Tee</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">1,20 €</span></td>
+					<td style="font-weight: bold;">Falafelsalaatti (G, M)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">4,50 €</span></td>
+					<td style="font-weight: bold;">Muffini (L)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">2,00 €</span></td>
+				</tr>
+				<tr>
+					<td style="font-weight: bold;">Kaakao</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">2,50 €</span></td>
+					<td style="font-weight: bold;">Tuorepuuro (*G, L)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">3,00 €</span></td>
+					<td style="font-weight: bold;">Omenapiirakka (*G, L)</td>
+					<td><span style="background:#1E96A6;color:#fff;padding:5px 8px;">3,00 €</span></td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+			<p>
+				L = laktoositon<br>
+				G = gluteeniton<br>
+				M = maidoton<br>
+				*G = tuote saatavissa myös gluteenittomana
+			</p>
+			</article>
+		</main>
+		<footer>© AppCafé 2020</footer>
+		</div>
 	</body>
 </html>
